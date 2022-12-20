@@ -1,5 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -7,28 +7,41 @@
 }
 .navcontainer {
   width: 100%;
+  height: 12vh;
 }
-h1{
-  font-family: 'Roboto', sans-serif;
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+p{
+  font-family: 'Poppins', sans-serif;
 }
 .navpages {
-  padding-left:55%;
+  padding-left: 55%;
   margin-top: -60px;
 }
-.newbtn {
-  padding: 4.2%;
-  border: white solid 1px;
-  color: black;
-  background-color: #ffffff;
-  font-weight: bolder;
-  font-size: medium;
+.items {
 }
-.newbtn:hover{
+li {
+  text-decoration: none;
+  float: left;
+  padding: 3.5%;
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+  padding: auto;
+  color: black;
+  font-weight: bolder;
+  margin: 6px;
+  font-size: large;
+}
+li:hover {
   background: linear-gradient(#a25df8, #215dd5);
 }
 .navlogo {
-  width: 200px;
-  padding-top: 10px;
+  width: 277px;
+  padding-top: 5px;
   padding-left: 20px;
 }
 .banner1 {
@@ -172,10 +185,10 @@ h1{
   background: linear-gradient(#ffaf02, #ff8716);
 }
 .service2 {
-    background: linear-gradient(#b75bfe, #195ed3);
+  background: linear-gradient(#b75bfe, #195ed3);
 }
 .service3 {
-   background: linear-gradient(#ff2f51, #ff1c96);
+  background: linear-gradient(#ff2f51, #ff1c96);
 }
 .service4 {
   background: linear-gradient(#fd15e7, #b81ee0);
@@ -212,17 +225,17 @@ p,
   padding-top: 1%;
   color: black;
 }
-.main-item-box h1{
+.main-item-box h1 {
   padding-bottom: 1.5%;
 }
-.offerings h1{
+.offerings h1 {
   padding-top: 5%;
 }
-.offerings p{
+.offerings p {
   color: black;
 }
 .events {
-  background: linear-gradient(#feb916, #ff8001 );
+  background: linear-gradient(#feb916, #ff8001);
 }
 .events h1,
 p {
@@ -271,7 +284,7 @@ p,
 .changecol {
   background-color: #ffffff;
   color: black;
-    padding: 1%;
+  padding: 1%;
   padding: 3%;
   padding-left: 4%;
   padding-right: 4%;
@@ -305,7 +318,8 @@ p,
   width: 100%;
   margin-left: 50px;
 }
-.ban-item-box h1,p{
+.ban-item-box h1,
+p {
   opacity: 1;
 }
 .ban-inner {
